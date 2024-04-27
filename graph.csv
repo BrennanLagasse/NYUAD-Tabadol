@@ -1,0 +1,45 @@
+Cairo,Alexandria,208
+Cairo,Luxor,661
+Cairo,Aswan,889
+Cairo,Sharm El Sheikh,492
+Alexandria,Luxor,674
+Alexandria,Aswan,923
+Alexandria,Sharm El Sheikh,768
+Luxor,Aswan,217
+Luxor,Sharm El Sheikh,715
+Aswan,Sharm El Sheikh,755
+Cairo,Port Said,220
+Cairo,Ismailia,120
+Cairo,Suez,134
+Alexandria,Port Said,217
+Alexandria,Ismailia,230
+Alexandria,Suez,225
+Luxor,Hurghada,280
+Luxor,Marsa Alam,340
+Aswan,Abu Simbel,290
+Hurghada,Sharm El Sheikh,500
+Airport,Cairo,0
+Cairo International Airport,Alexandria,220
+Cairo International Airport,Luxor,670
+Cairo International Airport,Aswan,880
+Cairo International Airport,Sharm El Sheikh,460
+Cairo International Airport,Port Said,220
+Cairo International Airport,Ismailia,140
+Cairo International Airport,Suez,135
+Borg El Arab Airport,Alexandria,0
+Borg El Arab Airport,Luxor,760
+Borg El Arab Airport,Aswan,1000
+Borg El Arab Airport,Sharm El Sheikh,750
+Borg El Arab Airport,Port Said,280
+Borg El Arab Airport,Ismailia,290
+Borg El Arab Airport,Suez,285
+Luxor International Airport,Luxor,0
+Luxor International Airport,Aswan,230
+Luxor International Airport,Hurghada,280
+Luxor International Airport,Marsa Alam,340
+Luxor International Airport,Abu Simbel,290
+Aswan International Airport,Aswan,0
+Aswan International Airport,Abu Simbel,290
+Sharm El Sheikh International Airport,Sharm El Sheikh,0
+Hurghada International Airport,Hurghada,0
+Hurghada International Airport,Sharm El Sheikh,500
