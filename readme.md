@@ -27,8 +27,16 @@ Additional details can be found in **multiple_knapsack.ipynb**
 
 Finally, to minimize the cost of medications and take advantage of this opportunity for arbitrage, transport of medications from airports to consumers must be as efficient as possible. We solve this problem as a vehicle routing problem where the objective is to minimize the overall cost of deliveries given a fleet of vehicles with limited capacities. We formulate this as a VQE algorithm which is solved using quantum annealing with D-Wave's superconducting hardware.
 
-Additional details including a mathematical analysis can be found in **Vehicle Routing/vrp_constrained.ipynb**
+Additional details including a mathematical analysis can be found in **vrp_constrained.ipynb**
 
 # Additional Information
 
 Presentation: https://docs.google.com/presentation/d/1OoKNzceWWOMCj25XLEFtdThU6Msp-h_bmv9lNhq2nsM/edit#slide=id.p
+
+# Credit
+
+This work takes inspiration from the following works:
+
+Borowski, M. et al. (2020). New Hybrid Quantum Annealing Algorithms for Solving Vehicle Routing Problem. In: Krzhizhanovskaya, V., et al. Computational Science – ICCS 2020. ICCS 2020. Lecture Notes in Computer Science(), vol 12142. Springer, Cham. https://doi.or/g10.1007/978-3-030-50433-5_42
+
+Awasthi, A., Bär, F., Doetsch, J., Ehm, H., Erdmann, M., Hess, M., Klepsch, J., Limacher, P.A., Luckow, A., Niedermeier, C., Palackal, L., Pfeiffer, R., Ross, P., Safi, H., Schönmeier-Kromer, J., von Sicard, O., Wenger, Y., Wintersperger, K. and Yarkoni, S. (2023). Quantum Computing Techniques for Multi-Knapsack Problems. [online] arXiv.org. Available at: https://arxiv.org/abs/2301.05750 [Accessed 28 Apr. 2024].
