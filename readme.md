@@ -1,7 +1,7 @@
 There is a lack of affordable access to many important medications in the Arab world. Some of these medications are available in neighboring countries at reasonable prices. If these medications can be distributed effectively taking advantage of existing transport between the countries, then these crucial medications can be made more plentiful and affordable. 
 Our solution has three components.
 
-# Part 1 - Mobile App
+# Part 1 - Website
 
 First, we developed an app that informs travelers of medications in need in the region and allows users in need of medication to make requests.
 
@@ -29,6 +29,6 @@ Finally, to minimize the cost of medications and take advantage of this opportun
 
 Additional details including a mathematical analysis can be found in **Vehicle Routing/vrp_constrained.ipynb**
 
-# Additional 
+# Additional Information
 
 Presentation: https://docs.google.com/presentation/d/1OoKNzceWWOMCj25XLEFtdThU6Msp-h_bmv9lNhq2nsM/edit#slide=id.p
