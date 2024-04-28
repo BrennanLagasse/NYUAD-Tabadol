@@ -1,4 +1,4 @@
-There is a lack of affordable access to many important medications in the Arab world. Some of these medicationsa are available in neighboring countries at reasonable prices. If these medications can be distributed effectively taking advantage of existing transport between the countries, then these crucial medications can be made more plentiful and affordable. 
+There is a lack of affordable access to many important medications in the Arab world. Some of these medications are available in neighboring countries at reasonable prices. If these medications can be distributed effectively taking advantage of existing transport between the countries, then these crucial medications can be made more plentiful and affordable. 
 Our solution has three components.
 
 First, we developed an app that informs travelers of medications in need in the region and allows users in need of medication to make requests.
