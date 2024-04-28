@@ -34,7 +34,7 @@ Additional details including a mathematical analysis can be found in **vrp_const
 
 # Why Quantum?
 
-The multiple knapsack and constrained vehicular routing problems are both classically NP-Hard problems. However, using quantum computing, the solutions to these problems can be closely approximated in polynomial time.
+The multiple knapsack and constrained vehicular routing problems are both classically NP-Hard problems. However, using quantum computing, the solutions to these problems can be closely approximated in polynomial time. Using the variational quantum eigensolver (VQE) and the quantum unconstrained binary optimization (QUBO) formulation of these problems, we were able to achieve fast and accurate results for small representative examples of the knapsack and routing problems on D-Wave's superconducting hardware using quantum annealing.
 
 # Additional Information
 
