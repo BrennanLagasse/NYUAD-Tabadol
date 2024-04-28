@@ -1,4 +1,7 @@
-There is a lack of affordable access to many important medications in the Arab world. Some of these medications are available in neighboring countries at reasonable prices. If these medications can be distributed effectively taking advantage of existing transport between the countries, then these crucial medications can be made more plentiful and affordable. 
+# Introduction
+
+There is a lack of affordable access to many important medications in the Arab world. Some of these medications are available in neighboring countries at reasonable prices. Our project Tabadol takes advantage of existing transport between the countries and quantum optimization algorithms to efficiently distribute these crucial medications at a reasonable price.
+
 Our solution has three components.
 
 # Part 1 - Website
@@ -28,6 +31,10 @@ Additional details can be found in **multiple_knapsack.ipynb**
 Finally, to minimize the cost of medications and take advantage of this opportunity for arbitrage, transport of medications from airports to consumers must be as efficient as possible. We solve this problem as a vehicle routing problem where the objective is to minimize the overall cost of deliveries given a fleet of vehicles with limited capacities. We formulate this as a VQE algorithm which is solved using quantum annealing with D-Wave's superconducting hardware.
 
 Additional details including a mathematical analysis can be found in **vrp_constrained.ipynb**
+
+# Why Quantum?
+
+The multiple knapsack and constrained vehicular routing problems are both classically NP-Hard problems. However, using quantum computing, the solutions to these problems can be closely approximated in polynomial time.
 
 # Additional Information
 
