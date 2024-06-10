@@ -47,3 +47,5 @@ This work takes inspiration from the following works:
 Borowski, M. et al. (2020). New Hybrid Quantum Annealing Algorithms for Solving Vehicle Routing Problem. In: Krzhizhanovskaya, V., et al. Computational Science – ICCS 2020. ICCS 2020. Lecture Notes in Computer Science(), vol 12142. Springer, Cham. https://doi.or/g10.1007/978-3-030-50433-5_42
 
 Awasthi, A., Bär, F., Doetsch, J., Ehm, H., Erdmann, M., Hess, M., Klepsch, J., Limacher, P.A., Luckow, A., Niedermeier, C., Palackal, L., Pfeiffer, R., Ross, P., Safi, H., Schönmeier-Kromer, J., von Sicard, O., Wenger, Y., Wintersperger, K. and Yarkoni, S. (2023). Quantum Computing Techniques for Multi-Knapsack Problems. [online] arXiv.org. Available at: https://arxiv.org/abs/2301.05750 [Accessed 28 Apr. 2024].
+
+![Tabadol Logo](/images/tabadol_logo.jpg)
