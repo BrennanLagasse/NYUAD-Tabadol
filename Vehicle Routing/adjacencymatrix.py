@@ -1,3 +1,5 @@
+# Generates an adjacency matrix from a list of locations
+
 def init_mat(size):
     matrix = []
     for i in range(size):

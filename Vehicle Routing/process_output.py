@@ -3,6 +3,57 @@ import random
 def parse_string(input_string):
     return list(map(int, input_string.split('_')))
 
+def parse_string(input_string):
+    return list(map(int, input_string.split('_')))
+
+def check_feasibility_sample(sample, num_vehicles, num_steps, distances, max_distance, debug=False):
+
+    routes =  [[-1]*num_steps for _ in range(num_vehicles)]
+
+    # Go through all entries
+    for key, val in sample.items():
+        vehicle, vertex, step = parse_string(key)
+        if val == 1.0:
+            if routes[vehicle][step] == -1:
+                routes[vehicle][step] = vertex
+            else:
+                # Location visited multiple times
+                if debug:
+                    print(f"Violated constraint that vehicle {vehicle} can not be at multiple locations at once")
+                return False
+            
+    # Next, check that everything is visited
+    visited = [False]*(num_steps+1)
+
+    for route in routes:
+        for step in route:
+            if step != -1:
+                visited[step] = True
+    
+    for i in range(len(visited)):
+        if not visited[i]:
+            if debug:
+                print(f"Violated constraint that location {i} must be visited")
+            return False
+
+    # Finally, check that capacities are respected
+    for idx, route in enumerate(routes):
+        cost = 0
+
+        if route:
+            cost += distances[num_steps][route[0]]
+            cost += distances[route[-1]][num_steps]
+
+            for i in range(num_steps - 1):
+                cost += distances[route[i]][route[i+1]]
+
+        if cost > max_distance:
+            if debug:
+                print(f"Violated constraint that vehicle {idx} must travel under {max_distance} distance")
+            return False
+
+    return False
+
 def get_routes_from_sample(sample, num_vehicles, num_steps):
     """Builds a set of routes from the sample returned."""
 
@@ -16,15 +67,17 @@ def get_routes_from_sample(sample, num_vehicles, num_steps):
 
     # Clean up trailing and leading values (not optimized)
     for route in routes:
-        for i in range(len(route)):
-            if route[i] == 5:
+        while route:
+            if route[0] == 5:
                 route.pop(0)
-
-    for route in routes:
-        for i in range(len(route)-1, 0, -1):
-            if route[i] == 5:
-                route.pop(i) 
-
+            else:
+                break
+        while route:
+            if route[-1] == 5:
+                route.pop(len(route) - 1)
+            else:
+                break
+    
     return routes
 
 def get_cost_routes(paths, distances):
